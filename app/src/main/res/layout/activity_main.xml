@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageViewConnect4Logo"
+        android:layout_width="79dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126"
+        app:srcCompat="@drawable/logo"
+        tools:layout_height="100dp"
+        tools:layout_width="100dp" />
+
+    <TextView
+        android:id="@+id/textViewConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ConnectFour"
+        android:textColor="#F1F1F1"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewConnect4Logo"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="@+id/imageViewConnect4Logo"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewConnect4Logo" />
+
+    <ImageView
+        android:id="@+id/imageViewXOLogo"
+        android:layout_width="79dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127"
+        app:srcCompat="@drawable/logo"
+        tools:layout_height="100dp"
+        tools:layout_width="100dp" />
+
+    <TextView
+        android:id="@+id/textViewXO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X0"
+        android:textColor="#F1F1F1"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewXOLogo"
+        app:layout_constraintStart_toStartOf="@+id/imageViewXOLogo"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewXOLogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
